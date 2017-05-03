@@ -7,11 +7,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- first step to a responsive site -->
-        <title>HTML Skeleton</title>
+        <title>United States of Immigrants</title>
 
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- Your styles should be called here -->
+        <link href="main.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,29 +29,40 @@
 
         <form>
           <p>
-            Select the industry in the U.S. that you would like to explore
-          <p>
-
-            <select name="pulldown">
-                <option value="agriculture">Agriculture, forestry, fishing and hunting, and mining</option>
-                <option value="construction">Construction</option>
-                <option value="manufacturing">Manufacturing</option>
-                <option value="wholesaletrade">Wholesale trade</option>
-                <option value="retailtrade">Retail trade</option>
-                <option value="transportation">Transportation and warehousing, and utilities</option>
-                <option value="information">Information</option>
-                <option value="finance">Finance and insurance, and real estate and rental and leasing</option>
-                <option value="administrative">Professional, scientific, and management, and administrative and waste management services</option>
-                <option value="education">Educational services, and health care and social assistance</option>
-                <option value="arts">Arts, entertainment, and recreation, and accommodation and food services</option>
-                <option value="services">Other services (except public administration)</option>
-                <option value="public">Public administration</option>
+            Select the U.S. industry that you'd like to explore.
+          </p>
+            <select id="menu" name="pulldown">
+                <option class="industry default" value="select">---Select an industry---</option>
+                <option class="industry" value="agriculture">Agriculture, forestry, fishing and hunting, and mining</option>
+                <option class="industry" value="construction">Construction</option>
+                <option class="industry" value="manufacturing">Manufacturing</option>
+                <option class="industry" value="wholesaletrade">Wholesale trade</option>
+                <option class="industry" value="retailtrade">Retail trade</option>
+                <option class="industry" value="transportation">Transportation and warehousing, and utilities</option>
+                <option class="industry" value="information">Information</option>
+                <option class="industry" value="finance">Finance and insurance, and real estate and rental and leasing</option>
+                <option class="industry" value="administrative">Professional, scientific, and management, and administrative and waste management services</option>
+                <option class="industry" value="education">Educational services, and health care and social assistance</option>
+                <option class="industry" value="arts">Arts, entertainment, and recreation, and accommodation and food services</option>
+                <option class="industry" value="services">Other services (except public administration)</option>
+                <option class="industry" value="public">Public administration</option>
             </select>
         </form>
+
+<!-- This will be in a row -->
+        <div class="countries">
+          <input type="button" class="country" value="Libya" />
+          <input type="button" class="country" value="Iran" />
+          <input type="button" class="country" value="Somalia" />
+          <input type="button" class="country" value="Sudan" />
+          <input type="button" class="country" value="Syria" />
+          <input type="button" class="country" value="Yemen" />
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
         <!-- Your javascript should be called here -->
+        <script src="main.js" type="text/javascript"></script>
     </body>
 
 </html>

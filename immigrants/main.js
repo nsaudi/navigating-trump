@@ -1,3 +1,7 @@
 $(document).ready(function () {
-	//content goes here
+
+	$("#menu").change(function (e) {
+		$(".country").addClass("active");
+	});
+
 });
