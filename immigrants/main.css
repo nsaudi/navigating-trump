@@ -64,12 +64,49 @@ html, body {
     font-size: 16px;
 }
 
-.country, .default {
+.country {
     display: none;
 }
 
 .country.active {
     display: block;
+}
+
+.country .content {
+    display: none;
+}
+
+div.country {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    max-width: 100%;
+}
+
+#menu {
+    max-width: 100%;
+    padding: 10px;
+    background-color: #97b1db;
+    font-size: .8em;
+}
+
+div.content {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+h1, h4 {
+    padding: 10px;
+}
+
+.select {
+    padding-bottom: 10px;
 }
 
 
@@ -81,4 +118,7 @@ html, body {
 
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+}
+
+/
 }
