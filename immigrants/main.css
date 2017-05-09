@@ -72,6 +72,10 @@ html, body {
     display: block;
 }
 
+.country .amount {
+    float: right;
+}
+
 .country .content {
     display: none;
 }
