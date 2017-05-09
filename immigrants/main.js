@@ -252,10 +252,12 @@ $(document).ready(function () {
 				var number = amounts[select.val()][name];
 				country.addClass("active");
 				country.attr("data-amount", number.replace(",", "").replace("N/A", "-1"));
+				country.find(".content").slideUp(0);
+				country.removeClass("open");
 				amount.html(number + " people");
 				content.html(text);
 			});
-
+			//This .sort code was used from StackOverflow http://bit.ly/2qXqzHU
 			var divList = $(".country");
 			divList.sort(function (a, b) {
 				return parseFloat($(b).attr("data-amount")) - parseFloat($(a).attr("data-amount"))
@@ -265,7 +267,7 @@ $(document).ready(function () {
 	});
 
 
-	$(".country").on("click", function (e) {
+	$("body").on("click", ".country", function (e) {
 		e.preventDefault();
 
 		var country = $(this);
