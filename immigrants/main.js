@@ -251,9 +251,16 @@ $(document).ready(function () {
 				var text = responses[select.val()][name];
 				var number = amounts[select.val()][name];
 				country.addClass("active");
+				country.attr("data-amount", number.replace(",", "").replace("N/A", "-1"));
 				amount.html(number + " people");
 				content.html(text);
 			});
+
+			var divList = $(".country");
+			divList.sort(function (a, b) {
+				return parseFloat($(b).attr("data-amount")) - parseFloat($(a).attr("data-amount"))
+			});
+			$("div.industry").html(divList);
 		}
 	});
 
