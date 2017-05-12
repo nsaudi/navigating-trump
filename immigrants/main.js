@@ -1,122 +1,3 @@
-var responses = {
-	agriculture: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
-	},
-
-	construction: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
-	},
-
-	manufacturing: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
-	},
-
-	wholesaletrade: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
-	},
-
-	retailtrade: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
-	},
-
-	transportation: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
-	},
-
-	information: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
-	},
-
-	finance: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
-	},
-
-	administrative: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
-	},
-
-	education: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
-	},
-
-	arts: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
-	},
-
-	services: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
-	},
-
-	public: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
-	},
-};
-
 var amounts = {
 	agriculture: {
 		libya: "N/A",
@@ -233,6 +114,125 @@ var amounts = {
 		yemen: "221",
 		sudan: "788",
 		somalia: "949"
+	},
+};
+
+var responses = {
+	agriculture: {
+		libya: "Lorem ipsum",
+		iran: "dolor sit",
+		syria: "amet consectitur",
+		yemen: "Fam quinoa succulents",
+		sudan: "cronut pabst vexillologist butcher",
+		somalia: "keytar lo-fi chillwave tofu synth"
+	},
+
+	construction: {
+		libya: "the song goes",
+		iran: "hey now",
+		syria: "you're an all star",
+		yemen: "get your game on",
+		sudan: "go play",
+		somalia: "by Smash Mouth"
+	},
+
+	manufacturing: {
+		libya: "Lorem ipsum",
+		iran: "dolor sit",
+		syria: "amet consectitur",
+		yemen: "Fam quinoa succulents",
+		sudan: "cronut pabst vexillologist butcher",
+		somalia: "keytar lo-fi chillwave tofu synth"
+	},
+
+	wholesaletrade: {
+		libya: "the song goes",
+		iran: "hey now",
+		syria: "you're an all star",
+		yemen: "get your game on",
+		sudan: "go play",
+		somalia: "by Smash Mouth"
+	},
+
+	retailtrade: {
+		libya: "the song goes",
+		iran: "hey now",
+		syria: "you're an all star",
+		yemen: "get your game on",
+		sudan: "go play",
+		somalia: "by Smash Mouth"
+	},
+
+	transportation: {
+		libya: "Lorem ipsum",
+		iran: "dolor sit",
+		syria: "amet consectitur",
+		yemen: "Fam quinoa succulents",
+		sudan: "cronut pabst vexillologist butcher",
+		somalia: "keytar lo-fi chillwave tofu synth"
+	},
+
+	information: {
+		libya: "the song goes",
+		iran: "hey now",
+		syria: "you're an all star",
+		yemen: "get your game on",
+		sudan: "go play",
+		somalia: "by Smash Mouth"
+	},
+
+	finance: {
+		libya: "the song goes",
+		iran: "hey now",
+		syria: "you're an all star",
+		yemen: "get your game on",
+		sudan: "go play",
+		somalia: "by Smash Mouth"
+	},
+
+	administrative: {
+		libya: "Lorem ipsum",
+		iran: "dolor sit",
+		syria: "amet consectitur",
+		yemen: "Fam quinoa succulents",
+		sudan: "cronut pabst vexillologist butcher",
+		somalia: "keytar lo-fi chillwave tofu synth"
+	},
+
+	education: {
+		libya: "the song goes",
+		iran: "hey now",
+		syria: "you're an all star",
+		yemen: "get your game on",
+		sudan: "go play",
+		somalia: "by Smash Mouth"
+	},
+
+	arts: {
+		libya: "Lorem ipsum",
+		iran: "dolor sit",
+		syria: "amet consectitur",
+		yemen: "Fam quinoa succulents",
+		sudan: "cronut pabst vexillologist butcher",
+		somalia: "keytar lo-fi chillwave tofu synth"
+	},
+
+	services: {
+		libya: "the song goes",
+		iran: "hey now",
+		syria: "you're an all star",
+		yemen: "get your game on",
+		sudan: "go play",
+		somalia: "by Smash Mouth"
+	},
+
+	public: {
+		libya: "the song goes",
+		iran: "hey now",
+		syria: "you're an all star",
+		yemen: "get your game on",
+		sudan: "go play",
+		somalia: "by Smash Mouth"
 	},
 };
 
