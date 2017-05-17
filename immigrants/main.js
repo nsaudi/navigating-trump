@@ -119,120 +119,120 @@ var amounts = {
 
 var responses = {
 	agriculture: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">0.6%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">1.2%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">0.4%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">0.5%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">0.4%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	construction: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">3.9%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">4.1%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">2.8%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">2%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">1%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	manufacturing: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">8.5%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">7%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">8.1%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">18.2%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">14.9%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	wholesaletrade: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">3.7%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">4.2%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">2.4%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">1.8%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">1.6%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	retailtrade: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">13.7%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">27.2%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">54.6%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">12.5%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">8.4%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	transportation: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">3.8%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">4.2%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">3.1%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">15.5%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">19.7%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	information: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">2%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">2.1%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">0.7%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">2.9%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">0.9%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	finance: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">7.1%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">3.8%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">2%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">2.6%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">5%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	administrative: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">12.4%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">6.9%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">6.4%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">6.5%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">8.2%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	education: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">28.2%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">26.2%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">7.7%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">23%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">27.6%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	arts: {
-		libya: "Lorem ipsum",
-		iran: "dolor sit",
-		syria: "amet consectitur",
-		yemen: "Fam quinoa succulents",
-		sudan: "cronut pabst vexillologist butcher",
-		somalia: "keytar lo-fi chillwave tofu synth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">6.7%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">6.2%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">8.5%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">8.5%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">6.7%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	services: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">5.4%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">5%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">2.1%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">2.9%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">3.6%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 
 	public: {
-		libya: "the song goes",
-		iran: "hey now",
-		syria: "you're an all star",
-		yemen: "get your game on",
-		sudan: "go play",
-		somalia: "by Smash Mouth"
+		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
+		iran: "<p class=\"inner\">This is <span class=\"percent\">4%</span> of the population of Iranian born immigrants working in the U.S.</p>",
+		syria: "<p class=\"inner\">This is <span class=\"percent\">2%</span> of the population of Syrian born immigrants working in the U.S.</p>",
+		yemen: "<p class=\"inner\">This is <span class=\"percent\">1.3%</span> of the population of Yemeni born immigrants working in the U.S.</p>",
+		sudan: "<p class=\"inner\">This is <span class=\"percent\">3.2%</span> of the population of Sudanese born immigrants working in the U.S.</p>",
+		somalia: "<p class=\"inner\">This is <span class=\"percent\">2%</span> of the population of Somali born immigrants working in the U.S.</p>"
 	},
 };
 

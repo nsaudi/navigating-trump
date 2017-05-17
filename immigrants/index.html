@@ -7,10 +7,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- first step to a responsive site -->
-        <title>United States of Immigrants</title>
+        <title>Immigrant Workers</title>
 
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
         <!-- Your styles should be called here -->
         <link href="main.css" rel="stylesheet">
 
@@ -24,78 +24,110 @@
 
     <body>
         <!-- YOUR CONTENT GOES HERE -->
-        <h1>This is how dependent you are on the immigrants President Trump wants to ban</h1>
-        <h4>By: Priscilla Alabi, Prachi Bhardwaj, Nour Saudi, Carlos Serrano<h4>
-
-          <p class="select">
-            Select the U.S. industry that you'd like to explore.
-          </p>
-        <form>
-            <select id="menu" name="pulldown">
+        <div id="container">
+            <iframe id="datawrapper-chart-CqVsQ" src="https://datawrapper.dwcdn.net/CqVsQ/5/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"
+                oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="327"></iframe>
+            <script type="text/javascript">
+                if ("undefined" == typeof window.datawrapper) window.datawrapper = {};
+                window.datawrapper["CqVsQ"] = {}, window.datawrapper["CqVsQ"].embedDeltas = {
+                    "100": 489,
+                    "200": 381,
+                    "300": 327,
+                    "400": 327,
+                    "500": 327,
+                    "600": 300,
+                    "700": 300,
+                    "800": 300,
+                    "900": 300,
+                    "1000": 300
+                }, window.datawrapper["CqVsQ"].iframe = document.getElementById("datawrapper-chart-CqVsQ"), window.datawrapper["CqVsQ"].iframe.style.height = window.datawrapper["CqVsQ"].embedDeltas[Math.min(1e3, Math.max(100 * Math.floor(window.datawrapper[
+                    "CqVsQ"].iframe.offsetWidth / 100), 100))] + "px", window.addEventListener("message", function(a) {
+                    if ("undefined" != typeof a.data["datawrapper-height"])
+                        for (var b in a.data["datawrapper-height"])
+                            if ("CqVsQ" == b) window.datawrapper["CqVsQ"].iframe.style.height = a.data["datawrapper-height"][b] + "px"
+                });
+            </script>
+            <p class="select">
+                Select the U.S. industry that you'd like to explore.
+            </p>
+            <div id="whole">
+                <form>
+                    <select id="menu" name="pulldown">
                 <option class="industry default" value="0">---Select an industry---</option>
                 <option class="industry" value="agriculture">Agriculture, hunting, mining</option>
                 <option class="industry" value="construction">Construction</option>
                 <option class="industry" value="manufacturing">Manufacturing</option>
                 <option class="industry" value="wholesaletrade">Wholesale trade</option>
                 <option class="industry" value="retailtrade">Retail trade</option>
-                <option class="industry" value="transportation">Transportation, warehousing, and utilities</option>
+                <option class="industry" value="transportation">Transportation, warehousing, utilities</option>
                 <option class="industry" value="information">Information</option>
                 <option class="industry" value="finance">Finance, insurance, real estate, rental</option>
-                <option class="industry" value="administrative">Professional, scientific, management, administrative, waste management services</option>
-                <option class="industry" value="education">Education, health care, social assistance</option>
+                <option class="industry" value="administrative">Professional, scientific, mgmt.</option>
+                <option class="industry" value="education">Education and health care</option>
                 <option class="industry" value="arts">Arts, entertainment, recreation, food services</option>
-                <option class="industry" value="services">Other services (except public administration)</option>
+                <option class="industry" value="services">Other services</option>
                 <option class="industry" value="public">Public administration</option>
             </select>
-        </form>
+                </form>
 
-<!-- This will be in a row -->
-        <div class="industry">
+                <!-- This will be in a row -->
+                <div class="industry">
 
-          <div class="country" id="libya">
-              <div class='title'>Libya
-                <span class="amount"></span>
-              </div>
-              <div class="content"><!-- this is content from js --></div>
-          </div>
+                    <div class="country" id="libya">
+                        <div class='title'>Libya
+                            <span class="amount"></span>
+                        </div>
+                        <div class="content">
+                            <!-- this is content from js -->
+                        </div>
+                    </div>
 
-          <div class="country" id="iran">
-              <div class='title'>Iran
-                <span class="amount"></span>
-              </div>
-              <div class="content"><!-- this is content from js --></div>
-          </div>
+                    <div class="country" id="iran">
+                        <div class='title'>Iran
+                            <span class="amount"></span>
+                        </div>
+                        <div class="content">
+                            <!-- this is content from js -->
+                        </div>
+                    </div>
 
-          <div class="country" id="syria">
-              <div class='title'>Syria
-                <span class="amount"></span>
-              </div>
-              <div class="content"><!-- this is content from js --></div>
-          </div>
+                    <div class="country" id="syria">
+                        <div class='title'>Syria
+                            <span class="amount"></span>
+                        </div>
+                        <div class="content">
+                            <!-- this is content from js -->
+                        </div>
+                    </div>
 
-          <div class="country" id="yemen">
-              <div class='title'>Yemen
-                <span class="amount"></span>
-              </div>
-              <div class="content"><!-- this is content from js --></div>
-          </div>
+                    <div class="country" id="yemen">
+                        <div class='title'>Yemen
+                            <span class="amount"></span>
+                        </div>
+                        <div class="content">
+                            <!-- this is content from js -->
+                        </div>
+                    </div>
 
-          <div class="country" id="sudan">
-              <div class='title'>Sudan
-              <span class="amount"></span></div>
-              <div class="content"><!-- this is content from js --></div>
-          </div>
+                    <div class="country" id="sudan">
+                        <div class='title'>Sudan
+                            <span class="amount"></span></div>
+                        <div class="content">
+                            <!-- this is content from js -->
+                        </div>
+                    </div>
 
-          <div class="country" id="somalia">
-              <div class='title'>Somalia
-                <span class="amount"></span>
-              </div>
-              <div class="content"><!-- this is content from js --></div>
-          </div>
-
+                    <div class="country" id="somalia">
+                        <div class='title'>Somalia
+                            <span class="amount"></span>
+                        </div>
+                        <div class="content">
+                            <!-- this is content from js -->
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
         <!-- Your javascript should be called here -->
