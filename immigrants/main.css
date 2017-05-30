@@ -67,21 +67,26 @@ html, body {
 
 .country {
     display: none;
+    /*set country to display none until we change menu*/
 }
 
 .country.active {
     display: block;
+    /*when active, displays country as block*/
 }
 
 .country .amount {
     float: right;
+    /*displays # of workers on right of div*/
 }
 
-.country .content {
+
+/*.country .content {
     display: none;
-}
+}*/
 
 .percent {
+    /*styles percentage separate from text*/
     color: #983628;
     font-size: 1.4em;
     font-weight: 700;
@@ -95,6 +100,7 @@ html, body {
 }
 
 div.country {
+    /*styles each country div*/
     background-color: #eee;
     color: #141414;
     cursor: pointer;
@@ -103,12 +109,14 @@ div.country {
     border: none;
     outline: none;
     transition: 0.4s;
+    /*for when we switch countries, smooth transition*/
     max-width: 100%;
     border-bottom: solid #c1bdbd;
     border-width: 2px;
 }
 
 #menu {
+    /*styles menu bar*/
     max-width: 100%;
     width: 100%;
     height: 4em;
@@ -120,10 +128,11 @@ div.country {
 }
 
 div.content {
+    /* inner content div looks different from country div*/
     padding: 0 18px;
     padding: 15px;
     background-color: white;
-    display: none;
+    /*display: none;*/
 }
 
 h1, h2, h4 {

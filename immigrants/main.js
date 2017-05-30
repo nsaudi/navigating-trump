@@ -1,3 +1,4 @@
+//objects containing number of workers content that will be injected into each country and industry
 var amounts = {
 	agriculture: {
 		libya: "N/A",
@@ -117,6 +118,7 @@ var amounts = {
 	},
 };
 
+//this content is injected into the .content div in the html containing percentage of workers
 var responses = {
 	agriculture: {
 		libya: "<p class =\"inner\">The number of people who have immigrated to the U.S. from Libya in the past years has been too small. The American Community Survey will not publish their professional or demographic data to protect the identity and the personal information of the immigrants involved.</p>",
@@ -236,50 +238,50 @@ var responses = {
 	},
 };
 
-$(document).ready(function () {
+$(document).ready(function () { //occurs when DOM is loaded
 
-	$("#menu").on("change", function () {
+	$("#menu").on("change", function () { //when an industry on the menu bar is chosen or changed
 		var select = $(this);
 		if (select.val() === '0') {
-			$(".country").removeClass("active");
+			$(".country").removeClass("active"); //"select" option is given value 0 so no content shows
 		} else {
-			$(".country").each(function () {
-				var country = $(this);
-				var name = country.attr("id");
-				var content = country.find(".content");
-				var amount = country.find(".amount");
-				var text = responses[select.val()][name];
+			$(".country").each(function () { //for other industries, getting the content from objects above
+				var country = $(this); //loops through each country to get it's amount and content
+				var name = country.attr("id"); //the country you're on with the attribute "id" from the html
+				var content = country.find(".content"); //find that country's content div class
+				var amount = country.find(".amount"); //find that country's amount div
+				var text = responses[select.val()][name]; //store the content above as values into the country
 				var number = amounts[select.val()][name];
-				country.addClass("active");
-				country.attr("data-amount", number.replace(",", "").replace("N/A", "-1"));
-				country.find(".content").slideUp(0);
-				country.removeClass("open");
-				amount.html(number + " people");
-				content.html(text);
+				country.addClass("active"); //adds the active class to show the countries when u select frm menu
+				country.attr("data-amount", number.replace(",", "").replace("N/A", "-1")); //for sorting purpose
+				country.find(".content"); //finds the content for each country
+				// country.removeClass("open");
+				amount.html(number + " people"); //amount will be displayed in html as "123 people"
+				content.html(text); //content from above will be displayed as text
 			});
 			//This .sort code was used from StackOverflow http://bit.ly/2qXqzHU
-			var divList = $(".country");
-			divList.sort(function (a, b) {
+			var divList = $(".country"); //stores each country into a list
+			divList.sort(function (a, b) { //sorts those countries as a and b values, 2 at a time
 				return parseFloat($(b).attr("data-amount")) - parseFloat($(a).attr("data-amount"))
-			});
-			$("div.industry").html(divList);
+			}); //when you subtract first value by second, sort by the biggest number, amount stored as data
+			$("div.industry").html(divList); //display the sorting in the html
 		}
 	});
 
 
-	$("body").on("click", ".country", function (e) {
-		e.preventDefault();
-
-		var country = $(this);
-
-		if (country.hasClass("open")) {
-			country.find(".content").slideUp();
-			country.removeClass("open");
-		} else {
-			country.find(".content").slideDown();
-			country.addClass('open');
-		}
-
-	});
+	// $("body").on("click", ".country", function (e) {
+	// 	e.preventDefault();
+	//
+	// 	var country = $(this);
+	//
+	// 	if (country.hasClass("open")) {
+	// 		country.find(".content").slideUp();
+	// 		country.removeClass("open");
+	// 	} else {
+	// 		country.find(".content").slideDown();
+	// 		country.addClass('open');
+	// 	}
+	//
+	// });
 
 });
